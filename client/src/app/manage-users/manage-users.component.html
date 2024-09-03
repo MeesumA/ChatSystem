@@ -1,5 +1,9 @@
-<div class="manage-users">
-    <h2>Manage Users</h2>
-    <!-- Form or list to manage users will go here -->
-  </div>
-  
+<div class="manage-users-container">
+  <h2>Manage Users</h2>
+  <ul>
+    <li *ngFor="let user of users">
+      {{ user.username }} - {{ user.role }}
+      <!-- Add controls for managing users -->
+    </li>
+  </ul>
+</div>

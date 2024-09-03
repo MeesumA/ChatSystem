@@ -1,5 +1,10 @@
-<div class="assign-channels">
+<div class="assign-channels-container">
     <h2>Assign Channels</h2>
-    <!-- Form or list to assign users to channels will go here -->
+    <ul>
+      <li *ngFor="let channel of channels">
+        {{ channel.name }}
+        <!-- Add controls for assigning users to channels -->
+      </li>
+    </ul>
   </div>
   

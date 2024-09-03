@@ -1,5 +1,10 @@
-<div class="assign-groups">
+<div class="assign-groups-container">
     <h2>Assign Groups</h2>
-    <!-- Form or list to assign users to groups will go here -->
+    <ul>
+      <li *ngFor="let group of groups">
+        {{ group.name }}
+        <!-- Add controls for assigning users to groups -->
+      </li>
+    </ul>
   </div>
   
