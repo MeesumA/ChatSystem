@@ -1,1 +1,10 @@
 ECHO is on.
+"node_modules/
+dist/
+.env
+*.log
+coverage/
+tmp/
+.vscode/
+.DS_Store
+"
