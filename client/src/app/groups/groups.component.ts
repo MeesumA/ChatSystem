@@ -3,14 +3,8 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-groups',
   standalone: true,
-  imports: [],
-  template: `
-    <p>
-      groups works!
-    </p>
-  `,
-  styles: ``
+  templateUrl: './groups.component.html', // Use templateUrl
+  // styleUrls: ['./groups.component.css'] // If you have CSS for this component
 })
-export class GroupsComponent {
+export class GroupsComponent {}
 
-}

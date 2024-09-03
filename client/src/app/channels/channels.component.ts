@@ -3,14 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-channels',
   standalone: true,
-  imports: [],
-  template: `
-    <p>
-      channels works!
-    </p>
-  `,
-  styles: ``
+  templateUrl: './channels.component.html', // Use templateUrl
+  // styleUrls: ['./channels.component.css'] // If you have CSS for this component
 })
-export class ChannelsComponent {
-
-}
+export class ChannelsComponent {}

@@ -3,14 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-admin',
   standalone: true,
-  imports: [],
-  template: `
-    <p>
-      admin works!
-    </p>
-  `,
-  styles: ``
+  templateUrl: './admin.component.html', // Use templateUrl
+  // styleUrls: ['./admin.component.css'] // If you have CSS for this component
 })
-export class AdminComponent {
-
-}
+export class AdminComponent {}
